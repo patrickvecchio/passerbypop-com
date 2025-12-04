@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+</script>
+
+<div class="justify-center">
+	<!-- <img src="/images/3d-bucking-bronco.png" alt="3D Bucking Bronco" class="h-auto" /> -->
+</div>
