@@ -45,9 +45,10 @@
 	<div class="flex grow justify-between font-bold text-[12px]">
 		<a class=" text-gray-500 hover:text-primary-500" href="/music">MUSIC</a>
 		<a class=" text-gray-500 hover:text-primary-500" href="/video">VIDEO</a>
-		<a class=" text-gray-500 hover:text-primary-500" href="/live">LIVE</a>
-		<a class=" text-gray-500 hover:text-primary-500" href="/merch">MERCH</a>
-		<a class=" text-gray-500 hover:text-primary-500" href="/contact">CONTACT</a>
+
+		<div class=" text-gray-500 hover:text-primary-500">LIVE</div>
+		<div class=" text-gray-500 hover:text-primary-500">MERCH</div>
+		<div class=" text-gray-500 hover:text-primary-500">CONTACT</div>
 	</div>
 	<div id="social-icons" class="flex grow justify-end gap-2">
         <a href="https://www.facebook.com/passerbypop" target="_blank" rel="noopener noreferrer">
