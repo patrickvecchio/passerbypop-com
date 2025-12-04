@@ -1,3 +1,14 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@import '@skeletonlabs/skeleton'; 
+@import '@skeletonlabs/skeleton-svelte'; 
+
+@import '../themes/passerby.css';
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-gray-500: rgb(199, 199, 199);
+    --color-gray-700: rgb(150, 150, 150);
+}
