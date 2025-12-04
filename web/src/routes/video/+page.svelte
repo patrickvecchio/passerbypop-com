@@ -1,0 +1,12 @@
+<div class="w-[600px] h-[516px] bg-[url('/images/3d-bucking-bronco-transparent.png')] bg-center bg-no-repeat align-center content-center">
+	<iframe
+		width="728"
+		height="429"
+		src="https://www.youtube.com/embed/1X3v_eBoQ7U?si=ZTHyU8plzDDBluQj"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen
+	></iframe>
+</div>
