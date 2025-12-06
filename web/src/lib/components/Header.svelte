@@ -43,25 +43,23 @@
 
 >
 	<div class="flex grow justify-between font-bold text-[12px]">
-		<a class="text-primary-400 hover:text-primary-600" href="/music">MUSIC</a>
-		<a class="text-primary-400 hover:text-primary-600" href="/video">VIDEO</a>
-		<a class="text-primary-400 hover:text-primary-600" href="/live">LIVE</a>
-
-		<div class="text-primary-400 hover:text-primary-600">MERCH</div>
-		<div class="text-primary-400 hover:text-primary-600">CONTACT</div>
+		<a class="text-primary-300 hover:text-primary-400" href="/music">MUSIC</a>
+		<a class="text-primary-300 hover:text-primary-400" href="/video">VIDEO</a>
+		<a class="text-primary-300 hover:text-primary-400" href="/live">LIVE</a>
+		<a class="text-primary-300 hover:text-primary-400" href="/contact">CONTACT</a>
 	</div>
 	<div id="social-icons" class="flex grow justify-end gap-2">
         <a href="https://www.facebook.com/passerbypop" target="_blank" rel="noopener noreferrer">
-            {@render facebook(18, 'var(--color-primary-400)')}
+            {@render facebook(18, 'var(--color-primary-300)')}
         </a>
         <a href="https://twitter.com/passerbypop" target="_blank" rel="noopener noreferrer">
-            {@render twitter(18, 'var(--color-primary-400)')}
+            {@render twitter(18, 'var(--color-primary-300)')}
         </a>
         <a href="https://plus.google.com/u/1/115637981182265104973" target="_blank" rel="noopener noreferrer">
-            {@render google(18, 'var(--color-primary-400)')}
+            {@render google(18, 'var(--color-primary-300)')}
         </a>
         <a href="https://www.youtube.com/@passerbypop" target="_blank" rel="noopener noreferrer">
-            {@render youtube(18, 'var(--color-primary-400)')}
+            {@render youtube(18, 'var(--color-primary-300)')}
         </a>
 	</div>
 </div>
