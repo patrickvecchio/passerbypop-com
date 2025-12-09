@@ -34,21 +34,24 @@
 	</svg>
 {/snippet}
 
-<div
-	class="flex justify-between pl-30 pr-20 items-end w-[600px] h-[155px] bg-[url('/images/passerby-banner.png')] bg-contain bg-no-repeat"
->
-	<div class="flex grow justify-between font-bold text-[12px]">
-		<a class="text-primary-300 hover:text-primary-400" href="/music">MUSIC</a>
-		<a class="text-primary-300 hover:text-primary-400" href="/video">VIDEO</a>
-		<a class="text-primary-300 hover:text-primary-400" href="/live">LIVE</a>
-		<a class="text-primary-300 hover:text-primary-400" href="/contact">CONTACT</a>
-	</div>
-	<div id="social-icons" class="flex grow justify-end gap-2">
-		<a href="https://www.facebook.com/passerbypop" target="_blank" rel="noopener noreferrer">
-			{@render facebook(18, 'var(--color-primary-300)')}
-		</a>
-		<a href="https://www.youtube.com/@passerbypop" target="_blank" rel="noopener noreferrer">
-			{@render youtube(18, 'var(--color-primary-300)')}
-		</a>
+<div class="w-[600px] h-[155px] bg-contain bg-no-repeat">
+	<a href="/" class="flex justify-center">
+		<img src="/images/passerby-banner.png" alt="Passerby Logo" />
+	</a>
+	<div class="grid grid-cols-2 mx-20 mt-[-20px] font-bold text-[12px]">
+		<div class="flex justify-between">
+			<div><a class="text-primary-300 hover:text-primary-400" href="/music">MUSIC</a></div>
+			<div><a class="text-primary-300 hover:text-primary-400" href="/video">VIDEO</a></div>
+			<div><a class="text-primary-300 hover:text-primary-400" href="/live">LIVE</a></div>
+			<div><a class="text-primary-300 hover:text-primary-400" href="/contact">CONTACT</a></div>
+		</div>
+		<div class="flex justify-end gap-4">
+			<a href="https://www.facebook.com/passerbypop" target="_blank" rel="noopener noreferrer">
+				{@render facebook(18, 'var(--color-primary-300)')}
+			</a>
+			<a href="https://www.youtube.com/@passerbypop" target="_blank" rel="noopener noreferrer">
+				{@render youtube(18, 'var(--color-primary-300)')}
+			</a>
+		</div>
 	</div>
 </div>
