@@ -45,7 +45,7 @@
 			<div><a class="text-primary-300 hover:text-primary-400" href="/live">LIVE</a></div>
 			<div><a class="text-primary-300 hover:text-primary-400" href="/contact">CONTACT</a></div>
 		</div>
-		<div class="flex justify-end gap-4">
+		<div class="flex justify-end gap-4 mr-4">
 			<a href="https://www.facebook.com/passerbypop" target="_blank" rel="noopener noreferrer">
 				{@render facebook(18, 'var(--color-primary-300)')}
 			</a>
