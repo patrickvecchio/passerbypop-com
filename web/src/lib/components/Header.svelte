@@ -38,7 +38,7 @@
 	<a href="/" class="flex justify-center">
 		<img src="/images/passerby-banner.png" alt="Passerby Logo" />
 	</a>
-	<div class="grid grid-cols-2 mx-20 mt-[-20px] font-bold text-[12px]">
+	<div class="grid grid-cols-2 mx-20 -mt-5 font-bold text-[12px]">
 		<div class="flex justify-between">
 			<div><a class="text-primary-300 hover:text-primary-400" href="/music">MUSIC</a></div>
 			<div><a class="text-primary-300 hover:text-primary-400" href="/video">VIDEO</a></div>
